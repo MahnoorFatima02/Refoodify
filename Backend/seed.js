@@ -413,7 +413,7 @@ const seedProducts = async () => {
       discountedPrice: 0.8,
       store: "Lidl",
       location: "Aisle 15",
-      img: "/images/tomatosauce.jpg",
+      img: "/public/images/tomatosauce.jpg",
     },
     {
       name: "Spinach",
