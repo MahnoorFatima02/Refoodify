@@ -3,7 +3,7 @@ import { store } from "./store";
 import { refreshAccessToken } from "./user/actions";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://refoodifybackend.onrender.com/api",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
