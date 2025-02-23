@@ -77,7 +77,7 @@ const seedRecipes = async () => {
         "Brown beef. Add potatoes and carrots. Simmer until tender.",
       duration: 120,
       serving: 6,
-      img: "../../public/foodimage/beefstew.jpg",
+      img: "/foodimage/beefstew.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -413,7 +413,7 @@ const seedProducts = async () => {
       discountedPrice: 0.8,
       store: "Lidl",
       location: "Aisle 15",
-      img: "/public/images/tomatosauce.jpg",
+      img: "/images/tomatosauce.jpg",
     },
     {
       name: "Spinach",
