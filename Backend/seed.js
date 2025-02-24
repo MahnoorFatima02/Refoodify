@@ -45,7 +45,7 @@ const seedRecipes = async () => {
         "Cook spaghetti. Brown the beef. Mix with tomato sauce. Combine with spaghetti.",
       duration: 30,
       serving: 4,
-      img: "../../public/foodimage/spaghetti.jpg",
+      img: "/foodimage/spaghetti.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -61,7 +61,7 @@ const seedRecipes = async () => {
         "Cook chicken. Add curry powder and coconut milk. Simmer until done.",
       duration: 40,
       serving: 4,
-      img: "../../public/foodimage/chickencurry.jpg",
+      img: "/foodimage/chickencurry.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -92,7 +92,7 @@ const seedRecipes = async () => {
       instructions: "Stir fry vegetables. Add soy sauce. Serve with rice.",
       duration: 20,
       serving: 4,
-      img: "../../public/foodimage/vegetablestir.jpg",
+      img: "/foodimage/vegetablestir.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -107,7 +107,7 @@ const seedRecipes = async () => {
       instructions: "Mix ingredients. Cook on griddle. Serve with syrup.",
       duration: 15,
       serving: 4,
-      img: "../../public/foodimage/pancake.jpg",
+      img: "/foodimage/pancake.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -122,7 +122,7 @@ const seedRecipes = async () => {
       instructions: "Toss lettuce with dressing and croutons. Serve chilled.",
       duration: 10,
       serving: 2,
-      img: "../../public/foodimage/caesar.jpg",
+      img: "/foodimage/caesar.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -138,7 +138,7 @@ const seedRecipes = async () => {
         "Butter bread. Place cheese between slices. Grill until golden.",
       duration: 10,
       serving: 1,
-      img: "../../public/foodimage/grilledcheese.jpg",
+      img: "/foodimage/grilledcheese.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -154,7 +154,7 @@ const seedRecipes = async () => {
         "Cook tomatoes, onion, and garlic. Blend until smooth. Serve hot.",
       duration: 30,
       serving: 4,
-      img: "../../public/foodimage/tomatosoup.jpg",
+      img: "/foodimage/tomatosoup.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -170,7 +170,7 @@ const seedRecipes = async () => {
         "Mix ingredients. Bake at 350°F for 30 minutes. Cool and serve.",
       duration: 60,
       serving: 8,
-      img: "../../public/foodimage/chococake.jpg",
+      img: "/foodimage/chococake.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -185,7 +185,7 @@ const seedRecipes = async () => {
       instructions: "Whisk eggs and milk. Cook in buttered pan until set.",
       duration: 5,
       serving: 2,
-      img: "../../public/foodimage/scramble.jpg",
+      img: "/foodimage/scramble.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -200,7 +200,7 @@ const seedRecipes = async () => {
       instructions: "Cook chicken. Boil fettuccine. Mix with Alfredo sauce.",
       duration: 30,
       serving: 4,
-      img: "../../public/foodimage/alfredo.jpg",
+      img: "/foodimage/alfredo.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -215,7 +215,7 @@ const seedRecipes = async () => {
       instructions: "Cook fish. Assemble tacos with cabbage and tortillas.",
       duration: 20,
       serving: 4,
-      img: "../../public/foodimage/fishtaco.jpg",
+      img: "/foodimage/fishtaco.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -230,7 +230,7 @@ const seedRecipes = async () => {
       instructions: "Cook rice. Sauté mushrooms. Mix with Parmesan cheese.",
       duration: 45,
       serving: 4,
-      img: "../../public/foodimage/risotto.jpg",
+      img: "/foodimage/risotto.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -245,7 +245,7 @@ const seedRecipes = async () => {
       instructions: "Season lamb. Cook with rosemary and garlic.",
       duration: 25,
       serving: 4,
-      img: "../../public/foodimage/lambchops.jpg",
+      img: "/foodimage/lambchops.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -260,7 +260,7 @@ const seedRecipes = async () => {
       instructions: "Prepare apples. Fill pie crust. Bake until golden.",
       duration: 90,
       serving: 8,
-      img: "../../public/foodimage/applepie.jpg",
+      img: "/foodimage/applepie.jpg",
       userId: null, // Will be set later
       author: "Chef John",
       createdAt: new Date().toISOString().split("T")[0],
@@ -275,7 +275,7 @@ const seedRecipes = async () => {
       instructions: "Chop vegetables. Mix with feta cheese and dressing.",
       duration: 15,
       serving: 4,
-      img: "../../public/foodimage/greeksalad.jpg",
+      img: "/foodimage/greeksalad.jpg",
       userId: null, // Will be set later
       author: "Chef Jane",
       createdAt: new Date().toISOString().split("T")[0],
@@ -301,7 +301,7 @@ const seedProducts = async () => {
       discountedPrice: 2.1,
       store: "Prisma",
       location: "Aisle 3",
-      img: "../../../public/images/orange.jpg",
+      img: "/images/orange.jpg",
     },
     {
       name: "Apple",
@@ -309,7 +309,7 @@ const seedProducts = async () => {
       discountedPrice: 1.2,
       store: "K-Market",
       location: "Aisle 1",
-      img: "../../../public/images/apple.png",
+      img: "/images/apple.png",
     },
     {
       name: "Banana",
@@ -317,7 +317,7 @@ const seedProducts = async () => {
       discountedPrice: 1.0,
       store: "Lidl",
       location: "Aisle 2",
-      img: "../../../public/images/banana.png",
+      img: "/images/banana.png",
     },
     {
       name: "Grapes",
@@ -325,7 +325,7 @@ const seedProducts = async () => {
       discountedPrice: 2.5,
       store: "S-Market",
       location: "Aisle 4",
-      img: "../../../public/images/grape.jpg",
+      img: "/images/grape.jpg",
     },
     {
       name: "Milk",
@@ -333,7 +333,7 @@ const seedProducts = async () => {
       discountedPrice: 0.8,
       store: "Prisma",
       location: "Aisle 5",
-      img: "../../../public/images/milk.jpg",
+      img: "/images/milk.jpg",
     },
     {
       name: "Bread",
@@ -341,7 +341,7 @@ const seedProducts = async () => {
       discountedPrice: 1.5,
       store: "K-Market",
       location: "Aisle 6",
-      img: "../../../public/images/bread.jpg",
+      img: "/images/bread.jpg",
     },
     {
       name: "Butter",
@@ -349,7 +349,7 @@ const seedProducts = async () => {
       discountedPrice: 1.2,
       store: "Lidl",
       location: "Aisle 7",
-      img: "../../../public/images/butter.jpg",
+      img: "/images/butter.jpg",
     },
     {
       name: "Cheese",
@@ -357,7 +357,7 @@ const seedProducts = async () => {
       discountedPrice: 2.0,
       store: "S-Market",
       location: "Aisle 8",
-      img: "../../../public/images/cheese.png",
+      img: "/images/cheese.png",
     },
     {
       name: "Yogurt",
@@ -365,7 +365,7 @@ const seedProducts = async () => {
       discountedPrice: 0.9,
       store: "Prisma",
       location: "Aisle 9",
-      img: "../../../public/images/yogurt.jpg",
+      img: "/images/yogurt.jpg",
     },
     {
       name: "Chicken",
@@ -373,7 +373,7 @@ const seedProducts = async () => {
       discountedPrice: 4.5,
       store: "K-Market",
       location: "Aisle 10",
-      img: "../../../public/images/chicken.jpg",
+      img: "/images/chicken.jpg",
     },
     {
       name: "Beef",
@@ -381,7 +381,7 @@ const seedProducts = async () => {
       discountedPrice: 6.0,
       store: "Lidl",
       location: "Aisle 11",
-      img: "../../../public/images/beef.jpg",
+      img: "/images/beef.jpg",
     },
     {
       name: "Fish",
@@ -389,7 +389,7 @@ const seedProducts = async () => {
       discountedPrice: 5.0,
       store: "S-Market",
       location: "Aisle 12",
-      img: "../../../public/images/fish.jpg",
+      img: "/images/fish.jpg",
     },
     {
       name: "Rice",
@@ -397,7 +397,7 @@ const seedProducts = async () => {
       discountedPrice: 1.2,
       store: "Prisma",
       location: "Aisle 13",
-      img: "../../../public/images/rice.jpg",
+      img: "/images/rice.jpg",
     },
     {
       name: "Pasta",
@@ -405,7 +405,7 @@ const seedProducts = async () => {
       discountedPrice: 1.0,
       store: "K-Market",
       location: "Aisle 14",
-      img: "../../../public/images/pasta.jpg",
+      img: "/images/pasta.jpg",
     },
     {
       name: "Tomato Sauce",
@@ -413,7 +413,7 @@ const seedProducts = async () => {
       discountedPrice: 0.8,
       store: "Lidl",
       location: "Aisle 15",
-      img: "https://refoodifybackend.onrender.com/images/tomatosauce.jpg",
+      img: "/images/tomatosauce.jpg",
     },
     {
       name: "Spinach",
@@ -421,7 +421,7 @@ const seedProducts = async () => {
       discountedPrice: 1.8,
       store: "S-Market",
       location: "Aisle 16",
-      img: "../../../public/images/spinach.jpg",
+      img: "/images/spinach.jpg",
     },
     {
       name: "Avocado",
@@ -429,7 +429,7 @@ const seedProducts = async () => {
       discountedPrice: 1.5,
       store: "Prisma",
       location: "Aisle 17",
-      img: "../../../public/images/avocado.jpg",
+      img: "/images/avocado.jpg",
     },
     {
       name: "Olive Oil",
@@ -437,7 +437,7 @@ const seedProducts = async () => {
       discountedPrice: 4.5,
       store: "K-Market",
       location: "Aisle 18",
-      img: "../../../public/images/oliveoil.jpg",
+      img: "/images/oliveoil.jpg",
     },
     {
       name: "Salmon",
@@ -445,7 +445,7 @@ const seedProducts = async () => {
       discountedPrice: 7.0,
       store: "Lidl",
       location: "Aisle 19",
-      img: "../../../public/images/salmon.jpg",
+      img: "/images/salmon.jpg",
     },
     {
       name: "Quinoa",
@@ -453,7 +453,7 @@ const seedProducts = async () => {
       discountedPrice: 3.0,
       store: "S-Market",
       location: "Aisle 20",
-      img: "../../../public/images/quinoa.jpg",
+      img: "/images/quinoa.jpg",
     },
     {
       name: "Almond Milk",
@@ -461,7 +461,7 @@ const seedProducts = async () => {
       discountedPrice: 2.2,
       store: "Prisma",
       location: "Aisle 21",
-      img: "../../../public/images/almondmilk.jpg",
+      img: "/images/almondmilk.jpg",
     },
     {
       name: "Tofu",
@@ -469,7 +469,7 @@ const seedProducts = async () => {
       discountedPrice: 1.8,
       store: "K-Market",
       location: "Aisle 22",
-      img: "../../../public/images/tofu.jpg",
+      img: "/images/tofu.jpg",
     },
     {
       name: "Honey",
@@ -477,7 +477,7 @@ const seedProducts = async () => {
       discountedPrice: 3.5,
       store: "Lidl",
       location: "Aisle 23",
-      img: "../../../public/images/honey.jpg",
+      img: "/images/honey.jpg",
     },
     {
       name: "Greek Yogurt",
@@ -485,7 +485,7 @@ const seedProducts = async () => {
       discountedPrice: 2.7,
       store: "S-Market",
       location: "Aisle 24",
-      img: "../../../public/images/greekyogurt.jpeg",
+      img: "/images/greekyogurt.jpeg",
     },
     {
       name: "Almonds",
@@ -493,7 +493,7 @@ const seedProducts = async () => {
       discountedPrice: 5.0,
       store: "Prisma",
       location: "Aisle 25",
-      img: "../../../public/images/almonds.jpg",
+      img: "/images/almonds.jpg",
     },
   ];
 
