@@ -217,7 +217,7 @@ body {
 
 .mian-recipe-card {
   display: flex;
-/*   flex-direction: row; */
+  flex-direction: row;
   background-color: rgba(255, 255, 255, 0.721);
   padding: 30px;
   border-radius: 20px;
