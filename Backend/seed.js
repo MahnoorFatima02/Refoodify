@@ -413,7 +413,7 @@ const seedProducts = async () => {
       discountedPrice: 0.8,
       store: "Lidl",
       location: "Aisle 15",
-      img: "/images/tomatosauce.jpg",
+      img: "https://refoodifybackend.onrender.com/images/tomatosauce.jpg",
     },
     {
       name: "Spinach",
