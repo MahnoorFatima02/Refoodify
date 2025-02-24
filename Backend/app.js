@@ -13,6 +13,7 @@ const {
   errorResponder,
   invalidPathHandler,
 } = require("./Middleware/auth");
+const path = require('path');
 
 const app = express();
 
